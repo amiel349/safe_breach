@@ -1,0 +1,63 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Task API",
+    "description": "An API to execute tasks like DNS query and HTTP GET."
+  },
+  "host": "localhost:5000",
+  "basePath": "/",
+  "schemes": ["http"],
+  "paths": {
+    "/run_task/dns_query": {
+      "post": {
+        "summary": "Run a DNS query task",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "domain": { "type": "string" }
+              },
+              "required": ["domain"]
+            }
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success" },
+          "400": { "description": "Invalid input" },
+          "500": { "description": "Server error" }
+        }
+      }
+    },
+    "/run_task/http_get": {
+      "post": {
+        "summary": "Run an HTTP GET task",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "domain_or_ip": { "type": "string" },
+                "port": { "type": "integer" },
+                "uri": { "type": "string" }
+              },
+              "required": ["domain", "port", "uri"]
+            }
+          }
+        ],
+        "responses": {
+          "200": { "description": "Success" },
+          "400": { "description": "Invalid input" },
+          "500": { "description": "Server error" }
+        }
+      }
+    }
+  }
+}

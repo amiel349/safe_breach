@@ -1,0 +1,75 @@
+2024-12-10 22:06:01,834 - INFO - Executing DNSQueryTask for domain: n12.co.il
+2024-12-10 22:06:02,653 - INFO - Task dns_query executed successfully with result: 66.22.84.58
+2024-12-10 22:06:09,097 - INFO - Executing HTTPGetTask for URL: http://jsonplaceholder.typicode.com:80/posts/1
+2024-12-10 22:06:09,262 - INFO - Task http_get executed successfully with result: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2024-12-10 22:08:46,996 - INFO - Executing HTTPGetTask for URL: http://jsonplaceholder.typicode.com:80/posts/1
+2024-12-10 22:08:47,177 - INFO - Task http_get executed successfully with result: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2024-12-10 22:17:42,458 - INFO - Executing HTTPGetTask for URL: http://jsonplaceholder.typicode.com:80/posts/1
+2024-12-10 22:17:42,624 - INFO - Task http_get executed successfully with result: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2024-12-10 22:17:51,834 - INFO - Executing DNSQueryTask for domain: yahoo.com
+2024-12-10 22:17:51,849 - INFO - Task dns_query executed successfully with result: 74.6.143.25
+2024-12-10 23:52:20,204 - INFO - Executing DNSQueryTask for domain: yahoo.com
+2024-12-10 23:52:20,221 - INFO - Task dns_query executed successfully with result: 98.137.11.163
+2024-12-10 23:52:34,326 - INFO - Executing DNSQueryTask for domain: ynet.co.il
+2024-12-10 23:52:34,411 - INFO - Task dns_query executed successfully with result: 184.24.201.139
+2024-12-10 23:52:40,890 - INFO - Executing HTTPGetTask for URL: http://jsonplaceholder.typicode.com:80/posts/1
+2024-12-10 23:52:41,435 - INFO - Task http_get executed successfully with result: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2024-12-11 00:00:10,428 - ERROR - Unexpected error in task execution: Could not start server: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-11 00:05:58,311 - ERROR - Unexpected error in task execution: Could not start server: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-11 00:06:11,912 - ERROR - Unexpected error in task execution: Could not start server: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-11 00:10:53,799 - ERROR - Unexpected error in task execution: Could not start server: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-11 00:11:05,466 - INFO - Task start_http_server executed successfully with result: {'status': 'success', 'uuid': 'd099ac25-74f3-4ec1-8472-6f4827f71ed5', 'message': 'Server started on port 8087 with path /test1'}
+2024-12-11 00:14:29,450 - INFO - Task stop_http_server executed successfully with result: {'status': 'error', 'message': 'No server found with UUID d099ac25-74f3-4ec1-8472-6f4827f71ed5'}
+2024-12-11 00:15:24,649 - INFO - Task start_http_server executed successfully with result: {'status': 'success', 'uuid': 'ab90882b-4577-4e7f-8d21-6c564e49c7b1', 'message': 'Server started on port 8086 with path /test1'}
+2024-12-11 00:16:38,065 - INFO - Task stop_http_server executed successfully with result: {'status': 'success', 'uuid': 'ab90882b-4577-4e7f-8d21-6c564e49c7b1', 'visitors': ['127.0.0.1'], 'message': 'Server ab90882b-4577-4e7f-8d21-6c564e49c7b1 stopped'}
+2024-12-11 00:31:37,381 - INFO - Executing DNSQueryTask for domain: google.com
+2024-12-11 00:31:37,399 - INFO - Task dns_query executed successfully with result: 142.250.75.206
+2024-12-11 00:32:11,818 - INFO - Executing HTTPGetTask for URL: http://jsonplaceholder.typicode.com:80/posts/1
+2024-12-11 00:32:11,989 - INFO - Task http_get executed successfully with result: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2024-12-11 00:33:16,912 - INFO - Start new server: port:'8084', page_path: '127.0.0.1/test1', data: vamos river 
+2024-12-11 00:33:16,912 - INFO - Add new server: port:'8084', page_path: '127.0.0.1/test1', data: vamos river
+2024-12-11 00:33:16,912 - INFO - Task start_http_server executed successfully with result: {'status': 'success', 'uuid': 'c41ae6db-126b-4138-93fa-dd1670e0a355', 'message': 'Server started on port 8084 with path 127.0.0.1/test1'}
+2024-12-11 00:33:34,836 - INFO - add new visitor: ip: 127.0.0.1
+2024-12-11 00:33:53,733 - INFO - Stop server: uuid: c41ae6db-126b-4138-93fa-dd1670e0a355
+2024-12-11 00:33:54,111 - INFO - Remove server: c41ae6db-126b-4138-93fa-dd1670e0a355
+2024-12-11 00:33:54,111 - INFO - Task stop_http_server executed successfully with result: {'status': 'success', 'uuid': 'c41ae6db-126b-4138-93fa-dd1670e0a355', 'visitors': ['127.0.0.1'], 'message': 'Server c41ae6db-126b-4138-93fa-dd1670e0a355 stopped'}
+2024-12-11 01:07:22,207 - INFO - Stop server: uuid: ab90882b-4577-4e7f-8d21-6c564e49c7b1
+2024-12-11 01:07:22,211 - INFO - Task stop_http_server executed successfully with result: {'status': 'error', 'message': 'No server found with UUID ab90882b-4577-4e7f-8d21-6c564e49c7b1'}
+2024-12-11 01:07:35,229 - INFO - Start new server: port:'8084', page_path: '127.0.0.1/test1', data: vamos river 
+2024-12-11 01:07:35,234 - INFO - Add new server: port:'8084', page_path: '127.0.0.1/test1', data: vamos river
+2024-12-11 01:07:35,235 - INFO - Task start_http_server executed successfully with result: {'status': 'success', 'uuid': '32897469-36bc-4782-b475-4843b5100432', 'message': 'Server started on port 8084 with path 127.0.0.1/test1'}
+2024-12-11 01:08:11,114 - INFO - Stop server: uuid: 32897469-36bc-4782-b475-4843b5100432
+2024-12-11 01:08:11,217 - INFO - Remove server: 32897469-36bc-4782-b475-4843b5100432
+2024-12-11 01:08:11,217 - INFO - Task stop_http_server executed successfully with result: {'status': 'success', 'uuid': '32897469-36bc-4782-b475-4843b5100432', 'visitors': [], 'message': 'Server 32897469-36bc-4782-b475-4843b5100432 stopped'}
+2024-12-11 01:09:41,211 - INFO - Executing HTTPGetTask for URL: http://jsonplaceholder.typicode.com:80/posts/1
+2024-12-11 01:09:41,269 - INFO - Task http_get executed successfully with result: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
